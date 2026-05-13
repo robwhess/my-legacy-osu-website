@@ -327,16 +327,17 @@ const topics = [
     {
         title: 'End-to-End Testing with Cypress',
         weeks: [ 7, 8 ],
+        isCurrent: true,
         resources: [
             {
                 title: 'Lecture notes',
                 link: 'https://docs.google.com/document/d/1YQK068Fpqllgw_6ZJ4sZvSlNS1b2QM3N8I_nQMpE_cg/edit?usp=sharing'
             },
-            // {
-            //     title: 'Example code',
-            //     link: 'https://github.com/osu-cs362-sp24/e2e-testing',
-            //     description: 'code written during lecture'
-            // }
+            {
+                title: 'Example code',
+                link: 'https://github.com/osu-cs362-sp26/e2e-testing',
+                description: 'code written during lecture'
+            }
         ],
         readings: [
             {
