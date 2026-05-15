@@ -459,7 +459,6 @@ const topics = [
   {
     title: 'Storing File Data',
     weeks: [ 7 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',

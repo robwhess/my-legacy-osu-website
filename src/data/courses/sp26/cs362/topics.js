@@ -269,7 +269,6 @@ const topics = [
     {
         title: 'A Team-Based Workflow for using Git and GitHub',
         weeks: [ 7 ],
-        isCurrent: true,
         resources: [
             {
                 title: 'Lecture notes',
