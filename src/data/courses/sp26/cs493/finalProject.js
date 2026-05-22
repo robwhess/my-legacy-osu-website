@@ -42,19 +42,19 @@ const finalProject = {
         'Note that this must be completed individually by every member of your team.'
       ]
     },
-    // {
-    //   link : 'https://outlook.office365.com/owa/calendar/CS493@OregonStateUniversity.onmicrosoft.com/bookings/s/XZlMAYOPmUybTIBR57AJ5w2',
-    //   title: 'Final Project Demo Signup',
-    //   notes: [
-    //     'Sign up for a final project demo appointment using the link above.',
-    //     'Sign up for one demo appointment per team.',
-    //     'All team members must attend your demo unless prior arrangements have been made with Hess.',
-    //     'Code is due on GitHub at the time of your demo.',
-    //     'Come to the demo prepared to run your project from one of your team\'s computers.',
-    //     'Final project demos will be held in person in Hess\'s office (KEC 1109).',
-    //     'Remote attendance at a final project demo is possible *by request only*.  If you\'d like to attend your demo remotely via Zoom, please ask at least 24 hours in advance.'
-    //   ]
-    // }
+    {
+      link : 'https://outlook.office.com/book/CS493@OregonStateUniversity.onmicrosoft.com/s/EsUPnR82RES4TAHp3yYMNg2?ismsaljsauthenabled',
+      title: 'Final Project Demo Signup',
+      notes: [
+        'Sign up for a final project demo appointment using the link above.',
+        'Sign up for one demo appointment per team.',
+        'All team members must attend your demo unless prior arrangements have been made with Hess.',
+        'Code is due on GitHub at the time of your demo.',
+        'Come to the demo prepared to run your project from one of your team\'s computers.',
+        'Final project demos will be held in person in Hess\'s office (KEC 1109).',
+        'Remote attendance at a final project demo is possible *by request only*.  If you\'d like to attend your demo remotely via Zoom, please [submit this form](https://docs.google.com/forms/d/e/1FAIpQLSdPO0QtTolmEi6dp8WyHqG2bNEeFwqYmu6_OV1nKd9UbgDALg/viewform) at least 24 hours in advance.  Please submit the form only once per team.'
+      ]
+    }
   ],
 
   preamble: 'For the final project in this course, you will work in teams to implement a complete RESTful API.  You can find more info below.'
