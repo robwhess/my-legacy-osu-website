@@ -546,16 +546,17 @@ const topics = [
   {
     title: 'Setting up a GraphQL API with Apollo',
     weeks: [ 10 ],
+    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
         link: 'https://docs.google.com/document/d/1p8oSwiijRUdVYj3arF4O2j0OLZFN73ejKAdxV7mwrt4/edit?usp=sharing'
       },
-      // {
-      //   title: 'Example code',
-      //   link: 'https://github.com/osu-cs493-599-sp24/graphql-api',
-      //   description: 'GitHub repo for code written in lecture'
-      // },
+      {
+        title: 'Example code',
+        link: 'https://github.com/osu-cs493-sp26/graphql-api',
+        description: 'GitHub repo for code written in lecture'
+      },
     ],
     readings: [
       {
