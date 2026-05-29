@@ -48,7 +48,7 @@ const courseDetails = {
     },
     {
       title: 'The CS 492 Hall of Fame',
-      link: '/teaching/hof/cs492',
+      link: '/teaching/hof/cs492#w26',
       description: 'this is a showcase of some of the very best final projects from past terms of CS 492'
     },
     {

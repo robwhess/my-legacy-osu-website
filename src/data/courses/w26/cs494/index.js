@@ -48,7 +48,7 @@ var courseDetails = {
     },
     {
       title: 'The CS 494 Hall of Fame',
-      link: '/teaching/hof/cs494',
+      link: '/teaching/hof/cs494#w26',
       description: 'this is a showcase of some of the very best final projects from past terms of CS 494'
     },
     {
