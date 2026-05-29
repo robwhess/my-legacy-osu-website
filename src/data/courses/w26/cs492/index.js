@@ -2,7 +2,7 @@ import topics from './topics';
 import assignments from './assignments';
 import finalProject from './finalProject';
 import tas from './tas';
-// import hof from './hof';
+import hof from './hof';
 
 const courseDetails = {
   number: 'CS 492',
@@ -64,7 +64,7 @@ const courseDetails = {
 
   tas: tas,
 
-  // hof: hof
+  hof: hof
 };
 
 export default courseDetails;

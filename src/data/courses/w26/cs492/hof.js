@@ -1,9 +1,9 @@
-import wikiRaceImage from './hofFiles/wikiRace.jpg';
-import wikiRaceScreencap from './hofFiles/wikiRace.gif';
-import timeVaultImage from './hofFiles/timeVault.jpg';
-import timeVaultScreencap from './hofFiles/timeVault.gif';
-import beaverCacheImage from './hofFiles/beaverCache.jpg';
-import beaverCacheScreencap from './hofFiles/beaverCache.gif';
+import botwImage from './hofFiles/botw.jpg';
+import botwScreencap from './hofFiles/botw.gif';
+import beaverEatsImage from './hofFiles/beaverEats.jpg';
+import beaverEatsScreencap from './hofFiles/beaverEats.gif';
+import plantamonGoImage from './hofFiles/plantamonGo.jpg';
+import plantamonGoScreencap from './hofFiles/plantamonGo.gif';
 
 /*
  * Some helpful resources for converting image/movie files to the right formats:
@@ -14,40 +14,42 @@ import beaverCacheScreencap from './hofFiles/beaverCache.gif';
 
 const hof = [
   {
-    title: "WikiRace",
+    title: "BOTW Compendium App",
     developers: [
-      "Owen Cole",
-      "Jonathan Rockett",
-      "Ian Van Emmerik",
-      "Daniel Valdovinos"
+      "Nathan Puckett",
+      "Nathaniel White",
+      "Sarah Satchell",
+      "Philip Nguyen"
     ],
-    description: "WikiRace is a game where you are given 2 random Wikipedia articles, and you have to get from one to the other only using the links on the page you are currently on. The aim of the game is to get to the goal in the least amount of time and navigations. If you would like, you are able to manually set a start and end point so you can even race against your friends. WikiRace uses the Wikipedia API to generate 2 random titles and uses Androids WebView library to display that content within our app.",
-    imageUrl: wikiRaceImage,
-    screencapUrl: wikiRaceScreencap
+    description: "Our application allows the user to search, view, and save items related to the video game The Legend of Zelda: Breath of the Wild. The [Hyrule Compendium API](https://github.com/gadhagod/Hyrule-Compendium-API) is used as the backbone, with the UI having been made with Jetpack Compose. The home screen is formatted so a user can view all types of compendium entries, or switch to a tab that houses a specific type. Along with this, there’s a material design search bar at the top of the screen that allows for direct searches, as well as contains filters for locations found. The app also supports the ability to both save entries and mark them as found, and contains a screen that showcases all of the saved entries. All of this functionality is also completely accessible offline via local data persistence.",
+    imageUrl: botwImage,
+    screencapUrl: botwScreencap
   },
   {
-    title: "TimeVault",
+    title: "BeaverEats",
     developers: [
-      "Ryan Spreier",
-      "Yahir Gonzalez",
-      "Eric York"
+      "Minsu Kim",
+      "Ryan Shankar",
+      "Adithya Nair",
+      "Nicholas Nguyen",
+      "Tyler Nguyen"
     ],
-    description: "TimeVault is an application that allows users to document their interests and experiences in real-time, creating personalized \"time capsules\" for future reflection. With features such as photo uploads from camera roll, taking a picture using the phone's camera app, text entries, and link attachments, users can capture diverse moments and memories with ease. When a user adds an item, it is buried in a \"time capsule\" for the day. The calendar interface allows for navigation through past capsules so that users can see what they added on certain days, similar to an archive. Lastly, there is also an option to schedule reminders through notifications to enhance the user experience by prompting revisits to specific capsules on desired dates. This app uses Google's Firebase API to assist with sending notifications.",
-    imageUrl: timeVaultImage,
-    screencapUrl: timeVaultScreencap
+    description: "BeaverEats is a student-first mobile app built exclusively for the Oregon State University community in Corvallis, OR. It helps students discover the best restaurants, bars, cafes, and late-night eats near campus, ranked not by the general public, but by fellow Beavers. Starting from a Google Reviews baseline, the app's dynamic ratings evolve in real time through student-submitted reviews and campus-specific tags. Featuring an interactive, campus-centered map and algorithmically curated trending lists like \"Best Study Cafe\" and \"Budget-Friendly,\" BeaverEats goes beyond a simple directory to serve as a living, community-driven culinary companion tailored to student life.",
+    imageUrl: beaverEatsImage,
+    screencapUrl: beaverEatsScreencap
   },
   {
-    title: "BeaverCache",
+    title: "Plantamon Go",
     developers: [
-      "Kaelan Trowbridge",
-      "Moises Alberto Villarreal Casas",
-      "Jovan Young",
-      "Reina Takahara"
+      "Savhanna Beene",
+      "Dristi Patel",
+      "Hailey Prater",
+      "Kiana Shim"
     ],
-    description: "BeaverCache is an app where you can share and find cool spots on campus with your friends! Earn points by scanning the QR code hidden somewhere in the destination, and be on the top of the leaderboard! Users can add new exciting locations and post the QR code to the location physically, where other users can scan these QR codes to claim the points. Claim more points than your friends!",
-    imageUrl: beaverCacheImage,
-    screencapUrl: beaverCacheScreencap
-  }
+    description: "Plantamon is a mobile application inspired by Pokémon Go. The app allows users to collect and identify plants by \"catching\" them using their mobile device’s camera. Once a plant is captured, it can be identified using the [Plant.id API](https://documenter.getpostman.com/view/24599534/2s93z5A4v2) and added to the user’s personal Plant-dex. As users explore and expand their collection, they can also unlock achievements along the way!",
+    imageUrl: plantamonGoImage,
+    screencapUrl: plantamonGoScreencap
+  },
 ];
 
 export default hof;
