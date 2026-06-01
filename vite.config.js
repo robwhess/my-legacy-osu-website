@@ -12,9 +12,6 @@ export default defineConfig({
   plugins: [react({
     jsxImportSource: "@emotion/react"
   })],
-  server: {
-    port: 3000,
-  },
   build: {
     outDir: 'build',
   },
