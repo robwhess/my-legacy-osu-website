@@ -379,7 +379,6 @@ const topics = [
     {
         title: 'Continuous Integration and Continuous Delivery with GitHub Actions',
         weeks: [ 9, 10 ],
-        isCurrent: true,
         resources: [
             {
                 title: 'Lecture notes',

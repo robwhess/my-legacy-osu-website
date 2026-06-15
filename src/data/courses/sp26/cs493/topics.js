@@ -507,7 +507,6 @@ const topics = [
   {
     title: 'Performing Offline Work with RabbitMQ',
     weeks: [ 8, 9 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
@@ -546,7 +545,6 @@ const topics = [
   {
     title: 'Setting up a GraphQL API with Apollo',
     weeks: [ 10 ],
-    isCurrent: true,
     resources: [
       {
         title: 'Lecture notes',
