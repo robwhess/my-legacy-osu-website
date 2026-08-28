@@ -16,6 +16,7 @@ import TAInfoPage from './pages/TAInfoPage';
 import RecitationLabInfoPage from './pages/RecitationLabInfoPage';
 import HoFPage from './pages/HoFPage';
 import NoMatchPage from './pages/NoMatchPage';
+import SunsetBanner from './components/SunsetBanner';
 
 import breakpoints from './lib/breakpoints';
 
@@ -124,6 +125,7 @@ function App() {
       <Global styles={globalStyles} />
       <title>Rob Hess - Oregon State University</title>
 
+      <SunsetBanner />
       <Navbar heading={navHeading} links={navLinks} />
 
       <Routes>

@@ -1,9 +1,9 @@
 {
-  "name": "my-osu-website",
+  "name": "my-legacy-osu-website",
   "version": "0.2.0",
   "private": true,
   "type": "module",
-  "homepage": "http://web.engr.oregonstate.edu/~hessro/",
+  "homepage": "https://legacy.robwhess.com",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
